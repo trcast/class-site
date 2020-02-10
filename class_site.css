@@ -10,6 +10,20 @@ a {
   text-decoration:underline;
 }
 
+.biggest_box{
+  display:flex;
+  width:90%;
+  padding:20px;
+  opacity: 100%;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: lightgreen;
+}
+
 .name {
   display:flex;
   height:400px;
