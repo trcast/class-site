@@ -1,5 +1,5 @@
 body{
-  background-color:#888888;
+  background-color: pink;
 }
 h1{
 font-family:sans-serif;
@@ -10,12 +10,11 @@ a {
   text-decoration:underline;
 }
 
-.header{
+.name {
   display:flex;
-  border-radius: 70px;
-  height:100px;
+  height:400px;
   width:400px;
-  background-color:black;
+  background-color:white;
   opacity: 100%;
   margin-left: 20px;
   margin-right: 20px;
@@ -24,4 +23,7 @@ a {
   flex-direction:row;
   justify-content:center;
   align-items: center;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
 }
