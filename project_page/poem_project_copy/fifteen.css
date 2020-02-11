@@ -1,0 +1,41 @@
+body{
+  background-color: #9CC8F4;
+}
+
+.white {
+  animation-name: example;
+  animation-duration: 4s;
+  text-transform: uppercase;:
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color:#FCFDFF
+}
+
+@keyframes example {
+  0% {word-spacing: normal;}
+  40% {word-spacing: 500px;}
+  100% {word-spacing: normal;}
+}
+
+.light_blue {
+  animation-name: example;
+  animation-duration: 4s;
+  text-transform: uppercase;:
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color:#447FBA
+}
+
+.light_blue {
+  animation-name: example;
+  animation-duration: 4s;
+  text-transform: uppercase;:
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color:#447FBA
+}
+
+h1{
+  text-shadow: 20px 20px #447FBA;
+  font-family: 'Rubik Mono One', sans-serif;
+}

@@ -1,0 +1,238 @@
+body{
+  background-color:#FCF5C7;
+}
+
+.biggest_box{
+  display:flex;
+  height:900px;
+  width:1580px;
+  padding:20px;
+  opacity: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.container_one{
+  display:flex;
+  height:900px;
+  width:700px;
+  padding:20px;
+  opacity: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.container_two{
+  display:flex;
+  height:900px;
+  width:350px;
+  opacity: 100%;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.container_three{
+  display:flex;
+  height:900px;
+  width:350px;
+  opacity: 100%;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.green_text_big {
+  display:center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  color: #ADF7B6;
+  text-shadow: 3px 2px #79ADDC;
+}
+
+.pink_text {
+  display:center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: sans-serif;
+  color: #FFC09F;
+  text-shadow: 3px 2px #79ADDC;
+}
+
+.yellow_text {
+  display:center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: sans-serif;
+  color: #FFEE93;
+  text-shadow: 3px 2px #ADF7B6;
+}
+
+.green_text {
+  display:center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: sans-serif;
+  color: #ADF7B6;
+  text-shadow: 3px 2px #79ADDC;
+}
+
+.blue_text {
+  display:center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: sans-serif;
+  color: #79ADDC;
+  text-shadow: 3px 2px #ADF7B6;
+}
+
+.green{
+  display:flex;
+  height:150px;
+  width:150px;
+  padding:20px;
+  background-color:#ADF7B6;
+  opacity: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction:column-reverse;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.blue{
+  display:flex;
+  height:150px;
+  width:150px;
+  padding:20px;
+  background-color:#79ADDC;
+  opacity: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction:column-reverse;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.pink {
+  display:flex;
+  height:150px;
+  width:150px;
+  padding:20px;
+  background-color:#FFC09F;
+  opacity: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction:column-reverse;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.yellow {
+  display:flex;
+  height:150px;
+  width:150px;
+  padding:20px;
+  background-color:#FFEE93;
+  opacity: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction:column-reverse;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.container_four{
+  display:flex;
+  height:900px;
+  width:700px;
+  opacity: 100%;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.container_five{
+  display:flex;
+  height:700px;
+  width:700px;
+  opacity: 100%;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
+.name_one{
+  display:flex;
+  height:300px;
+  width:300px;
+  opacity: 100%;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-bottom:30px;
+  background-color:#ADF7B6;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+.name_two{
+  display:flex;
+  height:300px;
+  width:300px;
+  opacity: 100%;
+  margin-top: 20px;
+  background-color:#FFC09F;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+.blank_blue{
+  display:flex;
+  height:300px;
+  width:300px;
+  opacity: 100%;
+  margin-top: 20px;
+  background-color:#79ADDC;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+.blank_yellow{
+  display:flex;
+  height:300px;
+  width:300px;
+  opacity: 100%;
+  margin-top: 20px;
+  margin-bottom:30px;
+  background-color:#FFEE93;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}

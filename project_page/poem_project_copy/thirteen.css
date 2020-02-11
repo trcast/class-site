@@ -1,0 +1,24 @@
+body{
+  background-color: #F5F0F6
+}
+
+h1{
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.blue{
+  color: #2B4162;
+}
+
+.green{
+  color: #385F71;
+}
+
+.tan{
+  color: #D7B377;
+}
+
+.brown{
+  color: #8F754F;
+}

@@ -1,0 +1,27 @@
+.one {
+  width:1000px;
+  height: 950px;
+  background-color: red;
+  animation-name: one;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+body{
+  animation-name: one;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes one {
+  0%   {background-color: white;}
+   25%  {background-color: gray;}
+   50%  {background-color: black;}
+   100% {background-color: white;}
+}
+
+h1{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color:white;
+}

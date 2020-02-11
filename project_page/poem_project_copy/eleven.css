@@ -1,0 +1,36 @@
+
+body{
+  background-color: #FFCED3;
+}
+
+.one{
+  font-family: 'Shrikhand', cursive;
+  font-size: 30px;
+  color:#DB5461;
+  text-shadow: 10px 10px white;
+  letter-spacing: 15px;
+}
+
+.two{
+  font-family: 'Shrikhand', cursive;
+  font-size: 30px;
+  color:#8E3B44;
+  text-shadow: 10px 10px white;
+  letter-spacing: 15px;
+}
+
+.three{
+  font-family: 'Shrikhand', cursive;
+  font-size: 30px;
+  color:#F98E99;
+  text-shadow: 10px 10px white;
+  letter-spacing: 15px;
+}
+
+.four{
+  font-family: 'Shrikhand', cursive;
+  font-size: 30px;
+  color:#38171A;
+  text-shadow: 10px 10px white;
+  letter-spacing: 15px;
+}

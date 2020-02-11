@@ -1,19 +1,16 @@
 body{
-  background-color: pink;
+  background-color: lightgreen;
 }
+
 h1{
-font-family:sans-serif;
-  color:black;
-  text-transform: uppercase;
+  font-family:sans-serif;
+    color:black;
+    text-transform: uppercase;
 }
 
 a {
   color:white;
   text-decoration:none;
-}
-
-.name_{
-  text-transform: uppercase;
 }
 
 .biggest_box{
@@ -26,7 +23,7 @@ a {
   align-items:center;
 }
 
-.name {
+.box_one {
   display:flex;
   height:100px;
   width:500px;
@@ -44,31 +41,7 @@ a {
   border-width: medium;
 }
 
-.name_2 {
-  display:flex;
-  height:100px;
-  width:500px;
-  background-color:white;
-  opacity: 100%;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  flex-direction:row;
-  justify-content:center;
-  align-items: center;
-  border-style: solid;
-  border-color: black;
-  border-width: medium;
-}
-
-.name:hover{
-  transform:translate(0px,-10px);
-  box-shadow: 5px 5px black;
-}
-
-
-.name_2:hover{
+.box_one:hover{
   transform:translate(0px,-10px);
   box-shadow: 5px 5px black;
 }
