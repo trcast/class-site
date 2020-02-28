@@ -1,0 +1,103 @@
+body{
+  background-color: black;
+}
+
+.box{
+  display:flex;
+  width:800px;
+  height:800px;
+  opacity: 100%;
+  justify-content:space-around;
+  align-items:center;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+  background-color: black;
+  position: relative;
+}
+
+.background{
+  position: absolute;
+  height: 900px;
+  width: 900px;
+}
+
+.table{
+  position: absolute;
+  height: 900px;
+  width: 900px;
+}
+
+.blue{
+  position: absolute;
+  top:220px;
+  left:1050px;
+}
+
+.blue:hover{
+  top:210px;
+  left:1050px;
+}
+
+.pink{
+  position: absolute;
+  top: 90px;
+  left: 470px;
+}
+
+.pink:hover{
+  top: 80px;
+  left: 470px;
+}
+
+.yellow{
+  position: absolute;
+  top:70px;
+  left:1000px;
+}
+
+.yellow:hover{
+  top:60px;
+  left:1000px;
+}
+
+.purple{
+  position: absolute;
+  top:530px;
+  left:600px;
+}
+
+.purple:hover{
+  top:520px;
+  left:600px;
+}
+
+.chair{
+  position: absolute;
+  bottom:40px;
+  right:50px;
+}
+
+.chair:hover{
+  top:390px;
+  left:850px;
+}
+
+
+.book{
+  position: absolute;
+  top:680px;
+  left:660px;
+}
+
+.book:hover{
+  top:670px;
+  left:660px;
+}
+
+@media screen and (max width:1000px){
+  .background{
+    max-width: 900px;
+    max-height: 900px;
+  }
+}
