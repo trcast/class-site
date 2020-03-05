@@ -1,0 +1,125 @@
+body{
+  background: black;
+}
+
+.bigger_box{
+  display:flex;
+  flex-wrap: wrap;
+  width:1640px;
+  flex-direction:row;
+}
+
+.background{
+  background-color: black;
+}
+
+.inner_box{
+  display:flex;
+  flex-wrap: wrap;
+  width:1640px;
+  height: 900px;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:flex-start;
+  position: absolute;
+}
+
+.image_box{
+  display:flex;
+  width:800px;
+  height:800px;
+  flex-direction: center;
+  justify-content:center;
+  align-items:flex-start;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: black;
+  position: relative;
+}
+
+.side{
+  display:flex;
+  width: 400px;
+  height: 800px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: black;
+}
+
+.bottom{
+  display:flex;
+  width: 1620px;
+  height:100px;
+  position: absolute;
+  margin-top: 815px;
+  margin-left: 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: black;
+}
+
+.mirror{
+  position: absolute;
+  bottom: 400px;
+  transform: scale(.8)
+}
+
+.mirror:hover{
+  transform: scale(.85)
+}
+
+.candle{
+  position:absolute;
+  bottom:130px;
+  right:520px;
+  transform: scale(.8)
+}
+
+.candle:hover{
+  transform: scale(.85)
+}
+
+.book{
+  position: absolute;
+  bottom:122px;
+  right:200px;
+  transform: scale(.8)
+}
+
+.book:hover{
+  transform: scale(.85)
+}
+
+.eye{
+  position: absolute;
+  bottom:650px;
+  left:100px;
+  animation: 20s infinite;
+  animation-name: eye_fade ;
+  animation-timing-function:ease-in-out;
+}
+
+.eye_two{
+  position: absolute;
+  bottom:650px;
+  right:100px;
+  animation: 20s infinite;
+  animation-name: eye_fade ;
+  animation-timing-function:ease-in-out;
+}
+
+
+@keyframes eye_fade {
+  0% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}

@@ -1,0 +1,28 @@
+body{
+  background: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 260px;
+}
+
+.center:hover{
+  animation: 7s infinite;
+  animation-name: opacity ;
+  animation-timing-function:ease-in-out;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}

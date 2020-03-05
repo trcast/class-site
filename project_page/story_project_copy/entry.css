@@ -1,0 +1,166 @@
+body{
+  background: black;
+}
+
+.bigger_box{
+  display:flex;
+  flex-wrap: wrap;
+  width:1640px;
+  flex-direction:row;
+}
+
+.background{
+  background-color: black;
+}
+
+.inner_box{
+  display:flex;
+  flex-wrap: wrap;
+  width:1640px;
+  height: 900px;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:flex-start;
+  position: absolute;
+}
+
+.image_box{
+  display:flex;
+  width:1000px;
+  height:800px;
+  flex-direction: center;
+  justify-content:center;
+  align-items:flex-start;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: black;
+  position: relative;
+}
+
+.side{
+  display:flex;
+  width: 294px;
+  height: 800px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: black;
+}
+
+.bottom{
+  display:flex;
+  width: 1620px;
+  height:100px;
+  position: absolute;
+  margin-top: 815px;
+  margin-left: 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: black;
+}
+
+.arrow{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.arrow:hover{
+  transform:scale(1.2);
+}
+
+.eye{
+  position: absolute;
+  bottom: 650px;
+  right: 60px;
+  opacity: 100%;
+  animation: 20s infinite;
+  animation-name: eye_fade ;
+  animation-timing-function:ease-in-out;
+}
+
+
+.eye_two{
+  position: absolute;
+  bottom:650px;
+  left:40px;
+  opacity: 100%;
+  animation: 20s infinite;
+  animation-name: eye_fade ;
+  animation-timing-function:ease-in-out;
+}
+
+
+@keyframes eye_fade {
+  0% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
+
+.carpet{
+  position: absolute;
+  bottom:130px;
+  right: 190px;
+}
+
+.carpet:hover{
+  transform: scale(1.02)
+}
+
+@keyframes grow {
+  0% {
+    opacity: 100%;
+  }
+  25% {
+    opacity: 0%;
+  }
+
+}
+
+.couch{
+  position: absolute;
+  bottom:250px;
+  right:300px;
+}
+
+.couch:hover{
+  transform: scale(1.02)
+}
+
+.mirror_top{
+  position: absolute;
+  bottom: 600px;
+  right:780px;
+}
+
+.mirror_top:hover{
+  transform: scale(1.04)
+}
+
+.mirror_bottom{
+  bottom:500px;
+  right:650px;
+  position: absolute;
+}
+
+.mirror_bottom:hover{
+  transform: scale(1.04)
+}
+
+.plant{
+  position: absolute;
+  bottom:300px;
+  right:790px;
+}
+
+.plant:hover{
+  transform: scale(1.03)
+}
